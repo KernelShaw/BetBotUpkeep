@@ -106,37 +106,7 @@ public class Main implements java.io.Serializable {
         api.addMessageCreateListener(event -> {
             Message message = event.getMessage();
             String content = message.getContent();
-            if (content.contains("nigger")) {
-                message.getChannel().sendMessage("Woah, hey, slow down there slugger! " +
-                        "The politically correct term for those people now is 'Chocolate Americans.'");
-            }
-            if (content.contains("spic")) {
-                message.getChannel().sendMessage("Woah, hey, slow down there slugger! " +
-                        "The politically correct term for those people now is \"Manuel Labor\"");
-            }
-            if (content.contains("chink")) {
-                message.getChannel().sendMessage("Woah, hey, slow down there slugger! " +
-                        "The politically correct term for those people now is \"Coin-Slot Comrades.\"");
-            }
-            if (content.contains("sam")) {
-                if (samChecker(message.getContent())) {
-                    message.getChannel().sendMessage("Did you mean: *nose* ?");
-                }
-            }
-            if (content.contains("faggot")) {
-                message.getChannel().sendMessage("Woah, hey, slow down there slugger! " +
-                        "The politically correct term for those people now is \"Sodomistic Sinners.\"");
-            }
-            if (content.contains("jew")) {
-                message.getChannel().sendMessage("Woah, hey, slow down there slugger! " +
-                        "The politically correct term for those people now is \"Yiddiots.\"");
-            }
-            if (content.contains("cunt")) {
-                message.getChannel().sendMessage("Hey man, that kind of language ain't cool! " +
-                        "Please refer to them as \"penis pleasurers,\" \"semen catchers,\" or any other, " +
-                        "more descriptive phrase of a woman's only purpose.");
-            }
-            if (content.contains("ginger")) {
+            if (content.contains("james")) {
                 message.getChannel().sendMessage("This is a Christian server and making fun of <@!279820067229925378> " +
                         "with this bot is encouraged.");
             }
@@ -149,7 +119,7 @@ public class Main implements java.io.Serializable {
             Message message = event.getMessage();
             if (message.getContent().contains("jeric")) {
                 message.getChannel().sendMessage("*Jeric. Please capitalize the name of our Supreme Leader, " +
-                        "Marshal of the Republic, speed-boi, Jeric \"Hitler\" Tianco.");
+                        "Marshal of the Republic, speed-boi, Jeric Tianco.");
             }
         });
         api.addMessageCreateListener(event -> {
