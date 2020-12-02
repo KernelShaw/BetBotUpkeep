@@ -10,7 +10,7 @@ import java.io.File;
 public class Main implements java.io.Serializable {
 
     public static void main(String[] args) {
-        DiscordApi api = new DiscordApiBuilder().setToken("NDcwMTk1NDQwNTQxODkyNjI4.DjSvbA.slKl6rn8u-Ux1yZ3VKVjMTsZB_A").login().join();
+        DiscordApi api = new DiscordApiBuilder().setToken("TOKEN").login().join();
         System.out.println("Logged in!");
 
         System.out.println("You can invite me by using the following url: " + api.createBotInvite());
